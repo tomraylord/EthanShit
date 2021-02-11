@@ -1,0 +1,8 @@
+version: 1.0
+main: cloud.timothy.genericplugin.GenericPluginClass
+author: tom
+name: ShmoneyPlugin
+api-version: 1.16
+commands:
+  settings:
+  filter:

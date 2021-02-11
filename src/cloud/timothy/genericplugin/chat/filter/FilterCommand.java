@@ -15,7 +15,7 @@ public class FilterCommand implements CommandExecutor
             sender.sendMessage(ChatColor.RED + "No Permission.");
             return true;
         }
-        if (args.length > 2 || args.length == 0 || args[0].equals("help"))
+        if (args.length > 2 || args.length == 0 || args[0].equals("help") || !(args[0].equals("add")) && !(args[0].equals("remove")) && !(args[0].equals("list")))
         {
             sender.sendMessage(ChatColor.YELLOW + "" + ChatColor.STRIKETHROUGH + "--" + ChatColor.RESET + ChatColor.RED + " Filter Command Help " + ChatColor.YELLOW + "" + ChatColor.STRIKETHROUGH + "--");
             sender.sendMessage(ChatColor.YELLOW + " - " + ChatColor.RED + "/filter add <String>");

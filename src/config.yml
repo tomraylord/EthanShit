@@ -1,2 +1,5 @@
 filter:
   - "nig"
+settings:
+  color:
+  filterenabled: []
